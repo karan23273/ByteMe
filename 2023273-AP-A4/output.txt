@@ -1,0 +1,3 @@
+Burger,120,Available,Snack
+Pizza,220,Available,Snack
+Salad,89,Available,Meal

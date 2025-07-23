@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="576.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <!-- Background Image -->
+      <ImageView fitHeight="576.0" fitWidth="1024.0">
+         <image>
+            <Image url="@../../../menu.png" />
+         </image>
+      </ImageView>
+
+      <!-- Another Image (Button or Icon) -->
+      <ImageView fitHeight="36.0" fitWidth="85.0" layoutX="48.0" layoutY="54.0">
+         <image>
+            <Image url="@../../../buttonB.png" />
+         </image>
+      </ImageView>
+
+      <!-- Title Label -->
+      <Label layoutX="353.0" layoutY="80.0" prefHeight="40.0" prefWidth="226.0" text="Menu" textFill="#ededed">
+         <font>
+            <Font name="Algerian" size="48.0" />
+         </font>
+      </Label>
+
+      <!-- Back Button -->
+      <Button fx:id="Goback" layoutX="57.0" layoutY="53.0" mnemonicParsing="false" style="-fx-background-color: null;" text="Back">
+         <font>
+            <Font name="Bookman Old Style" size="19.0" />
+         </font>
+      </Button>
+
+      <!-- Log Out Button -->
+      <Button fx:id="Logout" layoutX="365.0" layoutY="454.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="101.0" style="-fx-background-color: red;" text="Log Out" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

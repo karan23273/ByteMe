@@ -1,0 +1,6 @@
+Customer: k@1
+Id: 1
+Order Id: 1 Date: 2024-11-24T18:35:07.512249
+Current Status: DELIVERED
+2  x  1    Pizza
+----------------------------------------------------
